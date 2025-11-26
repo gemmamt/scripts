@@ -1,0 +1,32 @@
+# 🖥️ Sysadmin Scripts - Disk Extension
+
+## 📄 Description
+
+This repository contains a script to automatically **extend a disk partition, resize the physical volume (PV), logical volume (LV), and the filesystem** on Linux systems using LVM.
+
+The main script included is:
+
+- `extensio-disk.sh` – Automatically grows a partition and its corresponding LVM logical volume.
+
+---
+
+## ⚙️ Requirements
+
+- Linux system with **LVM installed**  
+- `growpart` utility (from `cloud-guest-utils` or `cloud-utils-growpart`)  
+- Root privileges (or `sudo` access)  
+- `resize2fs` for resizing ext4 filesystems  
+
+---
+
+## 🚀 Usage
+
+```bash
+# 1️⃣ Download the script
+curl -O https://raw.githubusercontent.com/Datom-lab/sysadmin-scripts/main/extensio-disk.sh
+
+# 2️⃣ Make it executable
+chmod +x extensio-disk.sh
+
+# 3️⃣ Run the script with sudo
+sudo ./extensio-disk.sh
