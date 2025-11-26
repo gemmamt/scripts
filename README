@@ -30,3 +30,6 @@ chmod +x extensio-disk.sh
 
 # 3️⃣ Run the script with sudo
 sudo ./extensio-disk.sh
+
+
+### URL: https://rdr-it.com/es/ubuntu-ampliar-la-particion-y-el-disco-lvm/
