@@ -21,15 +21,16 @@ The main script included is:
 
 ## 🚀 Usage
 
-```bash
-# 1️⃣ Download the script
-curl -O https://raw.githubusercontent.com/Datom-lab/sysadmin-scripts/main/extensio-disk.sh
+### 1️⃣ Download the script
 
-# 2️⃣ Make it executable
-chmod +x extensio-disk.sh
+    curl -O https://raw.githubusercontent.com/Datom-lab/sysadmin-scripts/main/extensio-disk.sh
 
-# 3️⃣ Run the script with sudo
-sudo ./extensio-disk.sh
+### 2️⃣ Make it executable
 
+    chmod +x extensio-disk.sh
 
-### URL: https://rdr-it.com/es/ubuntu-ampliar-la-particion-y-el-disco-lvm/
+### 3️⃣ Run the script with sudo
+
+    sudo ./extensio-disk.sh
+
+## URL: <https://rdr-it.com/es/ubuntu-ampliar-la-particion-y-el-disco-lvm/>
